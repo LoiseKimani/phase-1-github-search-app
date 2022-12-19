@@ -1,6 +1,10 @@
-fetch("https://api.github.com/search/users?q=octocat"t )
+fetch("https://api.github.com/users/"+ searchClean)
 .then((result) => result.json()) 
-.then((data) => { commit -m ""
+.then((data) =>{
+    document.getElementById("results").innerHTML=`
+    <a href="https://www.github.com/`> + 
+    
+})
 
 
 
